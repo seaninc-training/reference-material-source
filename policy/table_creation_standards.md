@@ -63,7 +63,7 @@ Existing objects are subject to a separate remediation process.
 - Enable with: `TBLPROPERTIES (delta.enableChangeDataFeed = true)`
   
 ## Timestamps
-- Tables are recommened to include a created_at or equivalent timestamp column
+- It is recommended that all tables include a created_at or equivalent timestamp column
 - Timestamp columns must default to `current_timestamp()`
 - Example: `created_at TIMESTAMP DEFAULT current_timestamp()`
 
